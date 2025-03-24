@@ -12,6 +12,7 @@ module "vpc" {
   # Enable NAT Gateway for private subnets
   enable_nat_gateway = true
   single_nat_gateway = true
+  
 
   # DNS Settings
   enable_dns_hostnames = true
